@@ -104,6 +104,18 @@ ul li {
     transform: scale(1.2);
 }
 
+.btn-limpar {
+    margin-top: 10px;
+    background: #e53935;
+    color: white;
+    font-size: 1.1em;
+}
+
+.btn-limpar:hover {
+    transform: scale(1.05);
+    background: #c62828;
+}
+
 #resultado {
     margin-top: 20px;
     font-size: 1.3em;

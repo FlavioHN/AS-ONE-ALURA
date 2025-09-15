@@ -61,3 +61,17 @@ document.getElementById("btnSortear").addEventListener("click", () => {
     let sorteado = amigos[Math.floor(Math.random() * amigos.length)];
     resultado.textContent = `🎉 Seu amigo secreto é ${sorteado}! 🎁`;
 });
+
+// Função para limpar lista
+document.getElementById("btnLimpar").addEventListener("click", () => {
+    if (amigos.length === 0) {
+        alert("A lista já esta vazia!");
+        return;
+    }
+
+    if (confirm("Tem certeza que deseja limpar toda a lista?")) {
+        amigos = [];
+        atualizarLista();
+        resultado.textContent = "";
+    }
+});
