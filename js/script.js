@@ -30,11 +30,25 @@ document.getElementById("btnAdicionar").addEventListener("click", () => {
 // Função para atualizar lista na tela
 function atualizarLista() {
     listaAmigos.innerHTML = "";
-    amigos.forEach((amigo) => {
+    amigos.forEach((amigo, index) => {
         let li = document.createElement("li");
         li.textContent = amigo;
+
+        // Criando botão de remover
+        let btnRemover = document.createElement("button");
+        btnRemover.textContent = "❌";
+        btnRemover.classList.add("btn-remover");
+        btnRemover.onclick = () => removerAmigo(index);
+
+        li.appendChild(btnRemover);
         listaAmigos.appendChild(li);
     });
+}
+
+// Função para remover amigo
+function removerAmigo(index) {
+    amigos.splice(index, 1);
+    atualizarLista();
 }
 
 // Função para sortear amigo secreto

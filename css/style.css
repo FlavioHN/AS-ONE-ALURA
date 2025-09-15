@@ -85,6 +85,23 @@ ul li {
     border-radius: 6px;
     font-weight: bold;
     color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-remover {
+    background: transparent;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    color: red;
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+
+.btn-remover:hover {
+    transform: scale(1.2);
 }
 
 #resultado {
