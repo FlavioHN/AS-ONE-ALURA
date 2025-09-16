@@ -21,11 +21,11 @@ Neste jogo, o usuário pode adicionar amigos a uma lista, remover nomes, limpar 
 
 ### 📸 Capturas de Tela
 
-Tela inicial do jogo:
+#### Tela inicial do jogo:
 
 ![Tela inicial do jogo](img/screenshot1.png)
 
-Sorteio realizado:
+#### Sorteio realizado:
 
 ![Sorteio realizado](img/screenshot2.png)
 
@@ -36,7 +36,7 @@ Sorteio realizado:
 
 ---
 
-🌍 Deploy
+## 🌍 Deploy
 
 Este projeto está disponível online graças ao Vercel:
 🔗 https://gameplay-amigo-secreto.vercel.app/
@@ -67,13 +67,13 @@ Este projeto está disponível online graças ao Vercel:
 
 ---
 
-📜 Licença
+## 📜 Licença
 
 Este projeto é de uso livre para fins de estudo e diversão.
 Contribuições são bem-vindas! 😃
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 Projeto desenvolvido por [Flavio Pinheiro](https://github.com/FlavioHN) 🚀
