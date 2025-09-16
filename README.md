@@ -9,18 +9,17 @@ Neste jogo, o usuário pode adicionar amigos a uma lista, remover nomes, limpar 
 
 ## ✨ Funcionalidades
 
-📝 Adicionar amigos à lista.
-❌ Remover amigos individualmente.
-🔄 Limpar toda a lista com um clique.
-🎲 Sortear um amigo secreto aleatoriamente.
-🎨 Tema visual estilizado inspirado em Hollow Knight.
+-📝 Adicionar amigos à lista.
+-❌ Remover amigos individualmente.
+-🔄 Limpar toda a lista com um clique.
+-🎲 Sortear um amigo secreto aleatoriamente.
+-🎨 Tema visual estilizado inspirado em Hollow Knight.
 
 ---
 
 ## 🖼️ Demonstração
 
 ### 📸 Capturas de Tela
-*(adicione prints aqui — por exemplo `img/screenshot1.png` e `img/screenshot2.png` do repositório)*
 
 Tela inicial do jogo:
 
@@ -31,12 +30,9 @@ Sorteio realizado:
 ![Sorteio realizado](img/screenshot2.png)
 
 ### 🎬 Vídeo de Demonstração
-*(adicione o vídeo já gravado, pode ser via link do YouTube, ou arquivo `.mp4` hospedado no repositório — recomendado colocar no YouTube e linkar aqui)*
 
-👉 [Assista à demonstração do jogo](https://youtu.be/psb9LHWZLpU)
-
-👉 [![Assista ao vídeo de demonstração](https://img.youtube.com/vi/psb9LHWZLpU/maxresdefault.jpg)](https://www.youtube.com/watch?v=psb9LHWZLpU)
-🎥 Clique na imagem acima para assistir no YouTube.
+[![Assista ao vídeo de demonstração](https://img.youtube.com/vi/psb9LHWZLpU/maxresdefault.jpg)](https://www.youtube.com/watch?v=psb9LHWZLpU)
+👉🎥 Clique na imagem acima para assistir no YouTube.
 
 ---
 
@@ -59,15 +55,15 @@ Este projeto está disponível online graças ao Vercel:
 
 ## 📂 Estrutura do Projeto
 
-│── index.html
-│── css/
-│ └── style.css
-│── js/
-│ └── script.js
-│── img/
-│ ├── background.jpg
-│ ├── screenshot1.png
-│ ├── screenshot2.png
+-│── index.html
+-│── css/
+-│ └── style.css
+-│── js/
+-│ └── script.js
+-│── img/
+-│ ├── background.jpg
+-│ ├── screenshot1.png
+-│ ├── screenshot2.png
 
 ---
 
@@ -80,4 +76,4 @@ Contribuições são bem-vindas! 😃
 
 👨‍💻 Autor
 
-Projeto desenvolvido por ![Flavio Pinheiro](https://github.com/FlavioHN) 🚀
+Projeto desenvolvido por [Flavio Pinheiro](https://github.com/FlavioHN) 🚀
